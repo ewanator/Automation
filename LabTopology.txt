@@ -1,0 +1,18 @@
+Hello (World)!
+
+Homework assignment #1 for Ivan Pepelnjak's Building Network Automation Solutions course.
+
+Lab description:
+
+My vitualization platform is VMware Workstation where I am running several Cisco CSR1000V routers.  There are two sets of north-south stacks, each having three routers, with one set of routers connected east-west.  I'm running BGP between the stacks and a mix of BGP and OSPF within.
+
+Ansible and Git are installed on a Vagrant bento/ubuntu-16.04 VM on my workstation. 
+
+Currently I can SSH to my routers and run commands (i.e. "show ver") using the Ansible raw module.
+
+My advice to anybody replicating this effort is to ensure you have the latest versions of all needed software before you attempt to configure and connect.  Doing so would have saved me some time.  :-)
+
+Cheers,
+
+Eric
+
